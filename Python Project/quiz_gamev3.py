@@ -113,7 +113,7 @@ def view_scores():
         if not scores:
             print("No scores available.")
             return
-# strip use for make a new line like \n remove
+# strip use for make a new line like \n do
         scores = [score.strip() for score in scores]
 # lambda function is used to sort the scores based on the score value in descending order and an anonymous function..
 # split is use to splite like here it will spilt | and \ from the scores ..
